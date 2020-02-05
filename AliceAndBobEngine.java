@@ -9,14 +9,31 @@ public class AliceAndBobEngine
 {
     String result;
     
-    AliceAndBobEngine(){
+    AliceAndBobEngine()
+    {
         result = "";
     }
 
     //HINT: LOOK AT THE TESTS TO SEE WHAT IS EXPECTED FOR DIFFERENT CONDITIONS
     public String evaluateAliceOrBob(String input)
     {
+        if (input.equals ("Alice") || input. equals ( "Bob"))
+        
+        {
+            
+        return "Hello " + input;
+    }
+    else if (input.equals ("Borbert") || input. equals ( "Cynthia"))
+    {
+        return  "I DON'T KNOW YOU, YOU ARE SCARY";
+        
+    }
     
-        return result;
+        else
+        {
+            return "I DON'T KNOW YOU, YOU ARE SCARY";
+        }
+    
+        
     }
 }
